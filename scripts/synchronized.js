@@ -24,4 +24,3 @@ var sequence = ["0111111", "0000011", "1101101", "1100111", "1010011", "1110110"
 window.onload = function() {
     stepSequence();
 };
-
