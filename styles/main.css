@@ -10,28 +10,26 @@ body {
     user-select: none;
     color: #6bcce1;
     pointer-events: none;
+    padding-top: 20px
 }
 
 h1, svg {
-    position: absolute;
+    display: block;
+    margin: auto;
     width: 250px;
     top: 40%;
     left: 50%;
 }
 
 h1 {
-    margin: 50px 0 0 -125px;
-    height: 287.5px;
     font-family: sans-serif;
     font-size: 30px;
     letter-spacing: 6px;
-    line-height: 287.5px;
     text-align: center;
     z-index: 100;
 }
 
 svg {
-    margin: -303.7px 0 0 -125px;
 }
 
 svg #shape polygon {
